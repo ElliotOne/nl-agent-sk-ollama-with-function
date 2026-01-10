@@ -6,8 +6,6 @@ This project shows how to run a **reactive Semantic Kernel ChatCompletionAgent**
 
 > This project uses the *agent abstraction* provided by Semantic Kernel, but does **not** implement autonomous planning or multi-step goal execution.
 
----
-
 ## Overview
 
 **What this project demonstrates:**
@@ -20,10 +18,6 @@ This project shows how to run a **reactive Semantic Kernel ChatCompletionAgent**
 - How to implement a clean console-based chat loop
 
 This example focuses on clarity and correctness rather than abstraction-heavy or fully autonomous agent architectures.
-
----
-
----
 
 ## Agent Model Clarification (Important)
 
@@ -50,8 +44,6 @@ It is **not** an autonomous or planning-based agentic system. Specifically:
 - No autonomous execution without user input
 
 This distinction is intentional and keeps the example simple and educational.
-
----
 
 ## Prerequisites
 
@@ -243,13 +235,9 @@ Agent: I don't know.
 This repository intentionally demonstrates:
 
 - Fully local AI agents
-
 - No cloud APIs
-
 - Deterministic tool usage
-
 - Clean separation between reasoning and execution
-
 - Minimal but production-aligned patterns
 
 It serves as a solid foundation for:
